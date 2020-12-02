@@ -1,0 +1,83 @@
+[
+    {
+        "key": "pandas",
+        "package_name": "pandas",
+        "installed_version": "1.1.4",
+        "required_version": "1.1.4",
+        "dependencies": [
+            {
+                "key": "numpy",
+                "package_name": "numpy",
+                "installed_version": "1.19.4",
+                "required_version": ">=1.15.4",
+                "dependencies": []
+            },
+            {
+                "key": "python-dateutil",
+                "package_name": "python-dateutil",
+                "installed_version": "2.8.1",
+                "required_version": ">=2.7.3",
+                "dependencies": [
+                    {
+                        "key": "six",
+                        "package_name": "six",
+                        "installed_version": "1.15.0",
+                        "required_version": ">=1.5",
+                        "dependencies": []
+                    }
+                ]
+            },
+            {
+                "key": "pytz",
+                "package_name": "pytz",
+                "installed_version": "2020.4",
+                "required_version": ">=2017.2",
+                "dependencies": []
+            }
+        ]
+    },
+    {
+        "key": "pipdeptree",
+        "package_name": "pipdeptree",
+        "installed_version": "1.0.0",
+        "required_version": "1.0.0",
+        "dependencies": [
+            {
+                "key": "pip",
+                "package_name": "pip",
+                "installed_version": "20.3",
+                "required_version": ">=6.0.0",
+                "dependencies": []
+            }
+        ]
+    },
+    {
+        "key": "scipy",
+        "package_name": "scipy",
+        "installed_version": "1.5.4",
+        "required_version": "1.5.4",
+        "dependencies": [
+            {
+                "key": "numpy",
+                "package_name": "numpy",
+                "installed_version": "1.19.4",
+                "required_version": ">=1.14.5",
+                "dependencies": []
+            }
+        ]
+    },
+    {
+        "key": "setuptools",
+        "package_name": "setuptools",
+        "installed_version": "50.3.2",
+        "required_version": "50.3.2",
+        "dependencies": []
+    },
+    {
+        "key": "wheel",
+        "package_name": "wheel",
+        "installed_version": "0.36.0",
+        "required_version": "0.36.0",
+        "dependencies": []
+    }
+]
