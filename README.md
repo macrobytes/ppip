@@ -23,8 +23,7 @@ optional arguments:
                         /path/to/target)
   --skip-dependency-check
                         If specified, pip will install with the --no-deps
-                        flag; recommended if the requirements.json is
-                        exhaustive.
+                        flag.
   --no-cache-dir        If specified, pip will install with the --no-cache-dir
                         flag.
 ```
