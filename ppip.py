@@ -55,10 +55,7 @@ def main():
     parser.add_argument(
         "--skip-dependency-check",
         action="store_true",
-        help=(
-            "If specified, pip will install with the --no-deps flag;"
-            " recommended if the requirements.json is exhaustive."
-        ),
+        help="If specified, pip will install with the --no-deps flag.",
     )
 
     parser.add_argument(
