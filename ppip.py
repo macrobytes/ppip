@@ -57,7 +57,7 @@ def main():
         action="store_true",
         help=(
             "If specified, pip will install with the --no-deps flag;"
-            " recommended if the requirements.json is complete."
+            " recommended if the requirements.json is exhaustive."
         ),
     )
 
