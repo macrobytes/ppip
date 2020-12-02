@@ -52,7 +52,7 @@ class ParallelInstaller:
         try:
             subprocess.check_output(installation_cmd)
         except subprocess.CalledProcessError as e:
-            print(e.returncode)
+            print(e.output.decode())
             sys.exit(e.returncode)
 
     def _remove_leaf_nodes(
